@@ -54,6 +54,20 @@
 </div>
 </details>
   
+  
+# :couple: commit 규칙 / pull request 규칙
+- commit 규칙
+  - 제목 : 이름 / 주차 / 패턴이름 
+    - ex) `이재선 / 1주차 / Abstract Factory, Builder, Factory Method, Prototype`
+  - 내용 : 자유 
+   
+
+- pull request 규칙
+  - 내용 : [아이디] 변경내용 자유롭게
+    - ex) `[jslee] builder 패턴 예제 구현 완료`
+ 
+   
+ 
 # :couple: 참여자와 진행도 
 - 이재선
 - 길용현
