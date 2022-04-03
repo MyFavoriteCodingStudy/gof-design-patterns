@@ -76,6 +76,18 @@
 - 고프
 - 김목균
 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/jslee314">
+      <img src="https://avatars.githubusercontent.com/u/40026846?v=4?s=100" width="100px;" alt=""/><br />
+      <sub><b>jslee</b><br>
+      <img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/42" /></sub></a><br />
+    </td>
+    
+  </tr>
+</table>
+
+
 
 
 
