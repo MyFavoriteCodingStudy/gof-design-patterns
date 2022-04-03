@@ -66,6 +66,9 @@
   - 내용 : [아이디] 변경내용 자유롭게
     - ex) `[jslee] builder 패턴 예제 구현 완료`
  
+  - 최초 : 기여자 추가 방법 
+    - @all-contributors please add <사용자 명> for <기여 유형>
+    - `@all-contributors please add @jslee314 for content`
    
  
 # :couple: 참여자와 진행도 
@@ -75,6 +78,11 @@
 - s
 - 고프
 - 김목균
+
+
+
+
+
 
 
 
