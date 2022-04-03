@@ -71,7 +71,7 @@
     - `@all-contributors please add @jslee314 for content`
    
  
-# :couple: 참여자와 진행도 
+# :couple: 참여자
 - 이재선
 - 길용현
 - 고광표
@@ -81,8 +81,6 @@
 
 
 
-
-## Contributors ✨
 
 Thanks go to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
