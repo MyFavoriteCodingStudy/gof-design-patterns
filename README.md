@@ -85,11 +85,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br /><sub><b>jslee314</b></sub></a></td>
-  </tr>
-</table>
+
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
