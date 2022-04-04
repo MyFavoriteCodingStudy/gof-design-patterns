@@ -23,7 +23,9 @@
       "profile": "https://jade314.tistory.com/",
       "contributions": [
         "content",
-        "code"
+        "code",
+        "bug",
+        "doc"
       ]
     }
   ],
