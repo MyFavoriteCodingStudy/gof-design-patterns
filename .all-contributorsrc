@@ -2,14 +2,15 @@
   "files": [
     "README.md"
   ],
-  "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=<%= contributor.login %>&state=closed"
-  "pRCountLang": _.size(<%= pR %>)
-  "pRCountStr": _.toString(<%= pRCountLang %>)
+  "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=<%= contributor.login %>&state=closed",
+  "pRCountLang": "_.size(<%= pR %>)",
+  "pRCountStr": "_.toString(<%= pRCountLang %>)",
+  "pRCountImg": "https://us-central1-progress-markdown.cloudfunctions.net/progress/<%= pRCountStr %>",
   "imageSize": 100,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><%= pRCountStr %><b><%= contributor.name %></b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/<%= pRCountLang %>" /></sub></a><br /></a>",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><%= pRCountStr %><b><%= contributor.name %></b><br><img src= \"<%= pRCountImg %>\"/></sub></a><br /></a>",
   "types": {
     "custom": {
       "symbol": "🔭",
@@ -26,3 +27,5 @@
   "repoType": "github",
   "repoHost": "https://github.com"
 }
+
+
