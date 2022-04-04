@@ -93,7 +93,6 @@ Thanks go to these wonderful people ([emoji key](https://allcontributors.org/doc
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://allcontributors.org) specification.
