@@ -68,7 +68,7 @@
  
   - 최초 : 기여자 추가 방법 
     - @all-contributors please add <사용자 명> for <기여 유형>
-    - `@all-contributors please add @jslee314 for content`
+    - ex) `@all-contributors please add @jslee314 for content`
    
  
 # :couple: 참여자
@@ -79,19 +79,10 @@
 - 고프
 - 김목균
 
-
-
-
-Thanks go to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br /><sub><b>jslee314</b></sub></a></td>
-  </tr>
-</table>
+
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
