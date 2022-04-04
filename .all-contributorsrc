@@ -18,16 +18,7 @@
   },
   "skipCi": true,
   "contributors": [
-    {
-      "login": "jslee314",
-      "name": "jslee314",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
-      "profile": "https://jade314.tistory.com/",
-      "contributions": [
-        "content",
-        "code"
-      ]
-    }
+  
   ],
   "projectName": "gof-design-patterns",
   "projectOwner": "MyFavoriteCodingStudy",
