@@ -5,7 +5,7 @@
   "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=<%= contributor.login %>&state=closed",
   "pRCountLang": "<% _.size(<%= options.pR %>); %>",
   "pRCountStr": "<% _.toString(<%= options.pRCountLang %>); %> ",
-  "pRCountImg": "https://us-central1-progress-markdown.cloudfunctions.net/progress/-<%= options.pRCountStr %>",
+  "pRCountImg": "https://us-central1-progress-markdown.cloudfunctions.net/progress/<%= options.pRCountStr %>",
   "imageSize": 100,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
