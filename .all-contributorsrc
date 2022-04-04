@@ -2,6 +2,8 @@
   "files": [
     "README.md"
   ],
+  "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=<%= contributor.login %>&state=closed",
+  "pRCountLang": "_.size(<%= pR %>)",
   "imageSize": 100,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
@@ -9,15 +11,6 @@
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "skipCi": true,
   "contributors": [
-    {
-      "login": "jslee314",
-      "name": "jslee314",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
-      "profile": "https://jade314.tistory.com/",
-      "contributions": [
-        "code"
-      ]
-    }
   ],
   "projectName": "gof-design-patterns",
   "projectOwner": "MyFavoriteCodingStudy",
