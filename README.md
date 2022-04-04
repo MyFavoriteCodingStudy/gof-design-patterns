@@ -83,7 +83,11 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
+<table>
+  <tr>
+    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br/><sub><b>jslee314</b></sub></a><br/><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/44"/><br/><sub><b>https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login="<%= contributor.profile %>"&state=closed</b></sub></td>
+  </tr>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
