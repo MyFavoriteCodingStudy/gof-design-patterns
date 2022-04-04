@@ -13,7 +13,15 @@
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br/><sub><b><%= contributor.name %></b></sub></a><br/><img src=\"<%= options.pRCountImg %>\"/><br/><sub><b><%= options.pRCountLang %></b></sub>",
   "skipCi": true,
   "contributors": [
-
+    {
+      "login": "jslee314",
+      "name": "jslee314",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
+      "profile": "https://jade314.tistory.com/",
+      "contributions": [
+        "content"
+      ]
+    }
   ],
   "projectName": "gof-design-patterns",
   "projectOwner": "MyFavoriteCodingStudy",
