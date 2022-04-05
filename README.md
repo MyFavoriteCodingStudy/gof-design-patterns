@@ -88,7 +88,7 @@
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br/><sub><b>jslee314</b></sub></a><br/><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/44"/><br/><sub><b>"<%= .size(<%= options.pR %>); %>"</b></sub></td>
+    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br/><sub><b>jslee314</b></sub></a><br/><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/44"/><br/><sub><b>"<% _.size(<%= options.pR %>); %>"</b></sub></td>
   </tr>
 </table>
 
