@@ -81,9 +81,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
+"<%= options.imageSize %>"
 
-
-![All Contributors](=https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=jslee314&state=closed)
+![All pR](https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=jslee314&state=closed)
 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
