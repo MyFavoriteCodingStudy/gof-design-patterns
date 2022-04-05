@@ -4,7 +4,7 @@
   ],
   "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=jslee314&state=closed",
   "pRCountLang": "<% _.size(<%= options.pR %>); %>",
-  "pRCountStr": "<%= _.toString(<%= options.pRCountLang %>); %> ",
+  "pRCountStr": "<% _.toString(<%= options.pRCountLang %>); %> ",
   "pRCountImg": "https://us-central1-progress-markdown.cloudfunctions.net/progress/44",
   "imageSize": 100,
   "contributorsPerLine": 7,
@@ -13,16 +13,8 @@
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br/><sub><b><%= contributor.name %></b></sub></a><br/><img src=\"<%= options.pRCountImg %>\"/><br/><sub><b><%= options.pR %></b></sub>",
   "skipCi": true,
   "contributors": [
-    {
-      "login": "jslee314",
-      "name": "jslee314",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
-      "profile": "https://jade314.tistory.com/",
-      "contributions": [
-        "content",
-        "code"
-      ]
-    }
+  
+
   ],
   "projectName": "gof-design-patterns",
   "projectOwner": "MyFavoriteCodingStudy",
