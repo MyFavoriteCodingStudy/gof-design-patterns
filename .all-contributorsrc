@@ -3,8 +3,8 @@
     "README.md"
   ],
   "pR": "https://api.github.com/repos/MyFavoriteCodingStudy/gof-design-patterns/issues?user.login=jslee314&state=closed",
-  "pRCountLang": "<% _.size(<%= options.pR %>); %>",
-  "pRCountStr": "<% _.toString(<%= options.pRCountLang %>); %> ",
+  "pRCountLang": "!<% _.size(<%= options.pR %>); %>",
+  "pRCountStr": "!<% _.toString(<%= options.pRCountLang %>); %> ",
   "pRCountImg": "https://us-central1-progress-markdown.cloudfunctions.net/progress/44",
   "imageSize": 100,
   "contributorsPerLine": 7,
