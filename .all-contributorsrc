@@ -10,13 +10,22 @@
   "skipCi": true,
   "contributors": [
     {
+      "login": "ahnseongeun",
+      "name": "ahnseongeun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47744119?v=4",
+      "profile": "https://github.com/ahnseongeun",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "ryumirr",
       "name": "soyeon park",
       "avatar_url": "https://avatars.githubusercontent.com/u/45558726?v=4",
       "profile": "https://github.com/ryumirr",
       "contributions": ["code"],
-      },
-      {
+    },
+    {
       "login": "KimMoggiun",
       "name": "KimMoggiun",
       "avatar_url": "https://avatars.githubusercontent.com/u/29058083?v=4",
