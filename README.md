@@ -88,6 +88,7 @@
     <td align="center"><a href="https://github.com/ahnseongeun"><img src="https://avatars.githubusercontent.com/u/47744119?v=4" width="100px;" alt=""/><br /><sub><b>ahnseongeun</b></sub></a></td>
     <td align="center"><a href="https://github.com/ryumirr"><img src="https://avatars.githubusercontent.com/u/45558726?v=4" width="100px;" alt=""/><br /><sub><b>soyeon park</b></sub></a></td>
     <td align="center"><a href="https://github.com/KimMoggiun"><img src="https://avatars.githubusercontent.com/u/29058083?v=4" width="100px;" alt=""/><br /><sub><b>KimMoggiun</b></sub></a></td>
+    <td align="center"><a href="https://jade314.tistory.com/"><img src="https://avatars.githubusercontent.com/u/40026846?v=4" width="100px;" alt=""/><br /><sub><b>jslee314</b></sub></a></td>
   </tr>
 </table>
 
