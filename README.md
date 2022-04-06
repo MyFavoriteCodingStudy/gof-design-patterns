@@ -1,46 +1,83 @@
 # GoF 디자인 패턴
 
 
-# :books: 주차별 학습 주제
+# 📆 주차별 학습 일정 및 발표자
 
-- 1주차 : Abstract Factory, Builder, Factory Method, Prototype
-- 2주차 : Singleton, Adapter, Bridge, Composite
-- 3주차 : Decorator, Facade, Flyweight, Proxy
-- 4주차 : Chain of Responsibility, Command, Interpreter, Iterator
-- 5주차 : Mediator, Memento, Observer, State
-- 6주차 : Strategy, Template Method, Visitor
+|__주차__|__날짜__|__패턴1  `발표자`__  |__패턴2  `발표자`__ |__패턴3  `발표자`__|__패턴4  `발표자`__|
+|:-----:|--------|-----|-----|-----|-----|
+|1주차 | 04월13일 | Abstract Factory `안성은`| Builder `길용현`| Factory Method `고프`| Prototype `이재선`|
+|2주차 | 04월20일 | Singleton `박소연`| Adapter `고광표`| Bridge `길용현`| Composite `안성은`|
+|3주차 | 04월27일 | Decorator `박소연`| Facade `이재선`| Flyweight `김목균`| Proxy `길용현`|
+|4주차 | 05월04일 | Chain of Responsibility| Command `김목균`| Interpreter `이재선`| Iterator `고광표`|
+|5주차 | 05월11일 | Mediator `길용현`| Memento`고프`| Observer| State `안성은`|
+|6주차 | 05월18일 | Strategy `고광표`| Template Method `고프`| Visitor `김목균`|
+
+# 📚 패턴의 개념과 코드예제
+
+|순서|패턴| 🙋이재선|🙋길용현|🙋고광표|🙋박소연|🙋고프|🙋김목균|🙋안성은|
+|:-----:|----------------|-----|-----|-----|-----|-----|-----|-----|
+|1|Abstract Factory| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|개념 code|
+|2|Builder|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
+|3|Factory Method|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
+|4|Prototype|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
+|5|Singleton|개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|
+|6|Adapter|개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|
+|7|Bridge|개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|
+|8|Composite|개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|
+|9|Decorator|개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|
+|10|Facade|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
+|11|Flyweight|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|12|Proxy|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|13|Chain of Responsibility|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|14|Command|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|15|Interpreter|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|16|Iterator|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|17|Mediator|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|18|Memento|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|19|Observer|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|20|State|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|21|Strategy|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|22|Template Method|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
+|23|Visitor|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
 
 
-# :pushpin: 관련 사이트
-- [모집공고] https://okky.kr/article/1191414
-- [오픈톡방] https://open.kakao.com/o/g4KcKzZd (참여코드 1234)
 
 
-# :dart: 스터디 참여방법
+# 🔍 관련 사이트
+### 스터디 관련
+- [모집공고]https://okky.kr/article/1191414
+- [오픈톡방]https://open.kakao.com/o/g4KcKzZd (참여코드 1234)
+
+### 마크다운 
+- [Diagrams 그리기]https://support.typora.io/Draw-Diagrams-With-Markdown/
+- [이모지 그리기]https://gist.github.com/rxaviers/7360908
+
+
+# 📜 스터디 참여방법
 ### 방법 1 : [중앙저장소] <-------> [원격저장소]  
 |순서|내용|
-|---|:-----------------------------------|
-|[1]| 중앙저장소 레파지토리를 원격저장소로 `fork`|  
-|[2]| 원격저장소에서 `fetch upstream`|  
-|[3]| 원격저장소에서 작업 수행 후 `commit`|  
-|[4]| 원격저장소 코드를 중앙저장소로 `pull request`|  
+|---|:----------------------------------------|
+|1️⃣| 중앙저장소 레파지토리를 원격저장소로 `fork`|  
+|2️⃣| 원격저장소에서 `fetch upstream`|  
+|3️⃣| 원격저장소에서 작업 수행 후 `commit`|  
+|4️⃣| 원격저장소 코드를 중앙저장소로 `pull request`|  
 
-최초 [1]>[3]>[4] 수행  
-매주 [2]>[3]>[4] 수행  
+- 최초 1️⃣>3️⃣>4️⃣ 수행  
+- 매주 2️⃣>3️⃣>4️⃣ 수행  
 
 
 ### 방법 2: [중앙저장소] <-------> [원격저장소] <-------> [로컬저장소]  
 |순서|내용|
-|---|:-----------------------------------|
-|[1]| 중앙저장소 레파지토리를 원격저장소로 `fork`|  
-|[2]| fork 한 원격저장소를 로컬저장소로 `clone`|  
-|[3]| 로컬 저장소에서 `update`|  
-|[4]| 로컬저장소에서 작업 수행 후 `commit`|  
-|[5]| 로컬저장소 코드를 원격저장소로 `push`|  
-|[6]| 원격저장소 코드를 중앙저장소로 `pull request`|  
+|---|:----------------------------------------|
+| 1️⃣ | 중앙저장소 레파지토리를 원격저장소로 `fork`|  
+| 2️⃣ | fork 한 원격저장소를 로컬저장소로 `clone`|  
+| 3️⃣ | 로컬 저장소에서 `update`|  
+| 4️⃣ | 로컬저장소에서 작업 수행 후 `commit`|  
+| 5️⃣ | 로컬저장소 코드를 원격저장소로 `push`|  
+| 6️⃣ | 원격저장소 코드를 중앙저장소로 `pull request`|  
 
-최초 [1]>[2]>[4]>[5]>[6] 수행  
-매주 [3]>[4]>[5]>[6] 수행  
+- 최초 1️⃣>2️⃣>4️⃣>5️⃣>6️⃣ 수행  
+- 매주 3️⃣>4️⃣>5️⃣>6️⃣ 수행  
 
 <details>
 <summary>깃허브를 이용한 그룹스터디 방법 참고 사이트</summary>
@@ -55,31 +92,23 @@
 </details>
   
   
-# :couple: commit 규칙 / pull request 규칙
-- commit 규칙
-  - 내용 : [아이디] 변경내용 자유롭게
-    - ex) `[jslee] builder 패턴 예제 구현 완료`
- 
-  - 최초 : 기여자 추가 방법 
-    - @all-contributors please add <사용자 명> for <기여 유형>
-    - ex) `@all-contributors please add @jslee314 for content`
+# 📌 commit 규칙 / pull request 규칙
+### 🎱 commit 규칙
+- 내용 : [아이디] 변경내용 자유롭게
+  - ex) `[jslee] builder 패턴 예제 구현 완료`
  
 
-- pull request 규칙
-   - 제목 : 이름 / 주차 / 패턴이름 
-    - ex) `이재선 / 1주차 / Abstract Factory, Builder, Factory Method, Prototype`
-  - 내용 : 자유 
-   
+### 🎱 pull request 규칙
+- 제목 : 이름 / 주차 / 패턴이름 
+  - ex) `이재선 / 1주차 / Abstract Factory, Builder, Factory Method, Prototype`
+ - 내용 : 자유 
  
-# :couple: 참여자
-- 이재선
-- 길용현
-- 고광표
-- 박소연
-- 고프
-- 김목균
-- 안성은
-
+### 🎱 기여자 추가 방법 
+- pull request 메시지에 다음을 추가
+  - @all-contributors please add <사용자 명> for <기여 유형>
+  - ex) `@all-contributors please add @jslee314 for content`
+ 
+# 👫: 참여자
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
