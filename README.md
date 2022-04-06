@@ -81,14 +81,19 @@
 - 안성은
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ahnseongeun"><img src="https://avatars.githubusercontent.com/u/47744119?v=4" width="100px;" alt=""/><br /><sub><b>ahnseongeun</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ryumirr"><img src="https://avatars.githubusercontent.com/u/45558726?v=4" width="100px;" alt=""/><br /><sub><b>soyeon park</b></sub></a></td>
+    <td align="center"><a href="https://github.com/KimMoggiun"><img src="https://avatars.githubusercontent.com/u/29058083?v=4" width="100px;" alt=""/><br /><sub><b>KimMoggiun</b></sub></a></td>
+  </tr>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 This project follows the [all-contributors](https://allcontributors.org) specification.
