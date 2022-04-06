@@ -9,7 +9,15 @@
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "skipCi": true,
   "contributors": [
-
+    {
+      "login": "ryumirr",
+      "name": "soyeon park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45558726?v=4",
+      "profile": "https://github.com/ryumirr",
+      "contributions": [
+        "code"
+      ]
+    }
   ],
   "projectName": "gof-design-patterns",
   "projectOwner": "MyFavoriteCodingStudy",
