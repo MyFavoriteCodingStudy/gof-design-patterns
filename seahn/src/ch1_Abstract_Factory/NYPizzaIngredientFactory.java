@@ -24,9 +24,4 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory{
         return new RegianoCheese();
     }
 
-//    @Override
-//    public Veggies[] createVeggies() {
-//        Veggies[] veggies = {new Garlic(), new Onion(), new MushRoom()};
-//        return veggies;
-//    }
 }
