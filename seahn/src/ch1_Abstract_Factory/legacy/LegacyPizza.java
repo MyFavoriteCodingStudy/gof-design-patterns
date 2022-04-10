@@ -1,13 +1,9 @@
 package ch1_Abstract_Factory.legacy;
 
 import ch1_Abstract_Factory.topping.cheese.Cheese;
-import ch1_Abstract_Factory.topping.cheese.RegianoCheese;
 import ch1_Abstract_Factory.topping.dough.Dough;
 import ch1_Abstract_Factory.topping.dough.ThinCrustDough;
-import ch1_Abstract_Factory.topping.sauce.MarinaraSauce;
 import ch1_Abstract_Factory.topping.sauce.Sauce;
-
-import java.util.ArrayList;
 
 public class LegacyPizza {
     String name;
@@ -22,21 +18,14 @@ public class LegacyPizza {
      */
     public void prepare(String pizzaName) {
 
+        DoughFactory doughFactory   = new DoughFactory();
+        SauceFactory sauceFactory   = new SauceFactory();
+        CheeseFactory cheeseFactory = new CheeseFactory();
+
+        System.out.println("Preparing " + name);
+        dough  = doughFactory.selectDough(pizzaName);
+        sauce  = sauceFactory.selectSauce(pizzaName);
+        cheese = cheeseFactory.selectCheese(pizzaName);
     }
 
-    public void bake() {
-        System.out.println("Bake for 25 minutes at 350");
-    }
-
-    public void cut() {
-        System.out.println("Cutting the pizza into 8 slices");
-    }
-
-    public void box() {
-        System.out.println("Place pizza in official PizzaStore box");
-    }
-
-    public String getName() {
-        return name;
-    }
 }
