@@ -1,16 +1,15 @@
 # GoF 디자인 패턴
 
-
 # 📆 주차별 학습 일정 및 발표자
 
-|__주차__|__날짜__|__패턴1__|__패턴2__|__패턴3__|__패턴4__|
-|:-----:|:--------:|:-----------:|:-----------:|:-----------:|:-----------:|
-|1주차 | 04월 13일 |Abstract Factory</br>`발표: 안성은`| Builder  </br>`발표: 길용현`| Factory Method </br> `발표: 고프`| Prototype  </br> `발표: 이재선`|
-|2주차 | 04월 20일 | Singleton </br> `발표: 박소연`| Adapter </br> `발표: 고광표`| Bridge  </br> `발표: 길용현`| Composite  </br> `발표: 안성은`|
-|3주차 | 04월 27일 | Decorator </br> `발표: 박소연`| Facade </br> `발표: 이재선`| Flyweight  </br> `발표: 김목균`| Proxy  </br> `발표: 길용현`|
-|4주차 | 05월 04일 | Chain of Responsibility </br> `발표: 박소연`| Command </br> `발표: 김목균`| Interpreter </br> `발표: 이재선`| Iterator  </br> `발표: 고광표`|
-|5주차 | 05월 11일 | Mediator </br> `발표: 길용현`| Memento </br>`고프`| Observer</br>`발표: 고광표`| State </br> `발표: 안성은`|
-|6주차 | 05월 18일 | Strategy </br> `발표: 고광표`| Template Method </br> `발표: 고프`| Visitor </br> `발표: 김목균`|
+|__주차__|__날짜__|__패턴1  `발표자`__  |__패턴2  `발표자`__ |__패턴3  `발표자`__|__패턴4  `발표자`__|
+|:-----:|--------|-----|-----|-----|-----|
+|1주차 | 04월13일 | Abstract Factory `안성은`| Builder `길용현`| Factory Method `고프`| Prototype `이재선`|
+|2주차 | 04월20일 | Singleton `박소연`| Adapter `고광표`| Bridge `길용현`| Composite `안성은`|
+|3주차 | 04월27일 | Decorator `박소연`| Facade `이재선`| Flyweight `김목균`| Proxy `길용현`|
+|4주차 | 05월04일 | Chain of Responsibility| Command `김목균`| Interpreter `이재선`| Iterator `고광표`|
+|5주차 | 05월11일 | Mediator `길용현`| Memento`고프`| Observer| State `안성은`|
+|6주차 | 05월18일 | Strategy `고광표`| Template Method `고프`| Visitor `김목균`|
 
 # 📚 패턴의 개념과 코드예제
 
@@ -39,8 +38,6 @@
 |21|Strategy|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
 |22|Template Method|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
 |23|Visitor|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|개념 code|
-
-
 
 
 # 🔍 관련 사이트
@@ -102,6 +99,7 @@
 - 제목 : 이름 / 주차 / 패턴이름 
   - ex) `이재선 / 1주차 / Abstract Factory, Builder, Factory Method, Prototype`
  - 내용 : 자유 
+
  
 ### 🎱 기여자 추가 방법 
 - pull request 메시지에 다음을 추가
@@ -127,8 +125,6 @@
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 This project follows the [all-contributors](https://allcontributors.org) specification.
-
-
 
 
 
