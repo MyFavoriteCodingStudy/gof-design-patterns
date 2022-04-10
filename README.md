@@ -3,19 +3,19 @@
 
 # 📆 주차별 학습 일정 및 발표자
 
-|__주차__|__날짜__|__패턴1  `발표자`__  |__패턴2  `발표자`__ |__패턴3  `발표자`__|__패턴4  `발표자`__|
-|:-----:|--------|-----|-----|-----|-----|
-|1주차 | 04월13일 | Abstract Factory </br> `안성은`| Builder  </br>`길용현`| Factory Method </br> `고프`| Prototype  </br> `이재선`|
-|2주차 | 04월20일 | Singleton </br> `박소연`| Adapter </br> `고광표`| Bridge  </br> `길용현`| Composite  </br> `안성은`|
-|3주차 | 04월27일 | Decorator </br> `박소연`| Facade </br> `이재선`| Flyweight  </br> `김목균`| Proxy  </br> `길용현`|
-|4주차 | 05월04일 | Chain of Responsibility </br> `박소연`| Command </br> `김목균`| Interpreter </br> `이재선`| Iterator  </br> `고광표`|
-|5주차 | 05월11일 | Mediator </br> `길용현`| Memento </br>`고프`| Observer| State </br> `안성은`|
-|6주차 | 05월18일 | Strategy </br> `고광표`| Template Method </br> `고프`| Visitor </br> `김목균`|
+|__주차__|__날짜__|__패턴1__|__패턴2__|__패턴3__|__패턴4__|
+|:-----:|:--------:|:-----------:|:-----------:|:-----------:|:-----------:|
+|1주차 | 04월 13일 |Abstract Factory</br>`발표: 안성은`| Builder  </br>`발표: 길용현`| Factory Method </br> `발표: 고프`| Prototype  </br> `발표: 이재선`|
+|2주차 | 04월 20일 | Singleton </br> `발표: 박소연`| Adapter </br> `발표: 고광표`| Bridge  </br> `발표: 길용현`| Composite  </br> `발표: 안성은`|
+|3주차 | 04월 27일 | Decorator </br> `발표: 박소연`| Facade </br> `발표: 이재선`| Flyweight  </br> `발표: 김목균`| Proxy  </br> `발표: 길용현`|
+|4주차 | 05월 04일 | Chain of Responsibility </br> `발표: 박소연`| Command </br> `발표: 김목균`| Interpreter </br> `발표: 이재선`| Iterator  </br> `발표: 고광표`|
+|5주차 | 05월 11일 | Mediator </br> `발표: 길용현`| Memento </br>`고프`| Observer</br>`발표: 고광표`| State </br> `발표: 안성은`|
+|6주차 | 05월 18일 | Strategy </br> `발표: 고광표`| Template Method </br> `발표: 고프`| Visitor </br> `발표: 김목균`|
 
 # 📚 패턴의 개념과 코드예제
 
 |순서|패턴| 🙋이재선|🙋길용현|🙋고광표|🙋박소연|🙋고프|🙋김목균|🙋안성은|
-|:-----:|----------------|-----|-----|-----|-----|-----|-----|-----|
+|:-----:|--------------|------|------|-------|------|------|------|------|
 |1|Abstract Factory| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code| 개념 code|개념 code|
 |2|Builder|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
 |3|Factory Method|개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code | 개념 code |
@@ -108,7 +108,7 @@
   - @all-contributors please add <사용자 명> for <기여 유형>
   - ex) `@all-contributors please add @jslee314 for content`
  
-# 👫: 참여자
+# 👫 참여자
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
