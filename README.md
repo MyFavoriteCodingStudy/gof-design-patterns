@@ -27,13 +27,13 @@ This project follows the [all-contributors](https://allcontributors.org) specifi
 # 📆 주차별 학습 일정 및 발표자
 
 |__주차__|__날짜__|__패턴1  `발표자`__  |__패턴2  `발표자`__ |__패턴3  `발표자`__|__패턴4  `발표자`__|
-|:-----:|--------|-----|-----|-----|-----|
-|1주차 | 04월13일 | Abstract Factory `안성은`| Builder `길용현`| Factory Method `안성은`| Prototype `이재선`|
-|2주차 | 04월20일 | Singleton `박소연`| Adapter `길용현`| Bridge `길용현`| Composite `안성은`|
-|3주차 | 04월27일 | Decorator `박소연`| Facade `이재선`| Flyweight `김목균`| Proxy `길용현`|
-|4주차 | 05월04일 | Chain of Responsibility `박소연`| Command `김목균`| Interpreter `이재선`| Iterator `??`|
-|5주차 | 05월11일 | Mediator `길용현`| Memento`이재선`| Observer`??`| State `안성은`|
-|6주차 | 05월18일 | Strategy `??`| Template Method `박소연`| Visitor `김목균`|  
+|:-----:|:--------:|:-----:|:-----:|:-----:|:-----:|
+|1주차 | 04월13일 | Abstract Factory<br>`안성은`| Builder<br>`길용현`| Factory Method<br>`안성은`| Prototype<br>`이재선`|
+|2주차 | 04월20일 | Singleton<br>`박소연`| Adapter<br>`길용현`| Bridge<br>`길용현`| Composite<br>`안성은`|
+|3주차 | 04월27일 | Decorator<br>`박소연`| Facade<br>`이재선`| Flyweight<br>`김목균`| Proxy<br>`길용현`|
+|4주차 | 05월04일 | Chain of Responsibility<br>`박소연`| Command<br>`김목균`| Interpreter<br>`이재선`| Iterator<br>`??`|
+|5주차 | 05월11일 | Mediator<br>`길용현`| Memento<br>`이재선`| Observer<br>`??`| State<br>`안성은`|
+|6주차 | 05월18일 | Strategy<br>`??`| Template Method<br>`박소연`| Visitor<br>`김목균`|  
 
 
 # 📚 패턴의 개념과 코드예제
