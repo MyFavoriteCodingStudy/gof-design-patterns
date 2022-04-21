@@ -44,6 +44,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "foru120",
+      "name": "Yong Hyun Kil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13757733?v=4",
+      "profile": "https://github.com/foru120",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "gof-design-patterns",
