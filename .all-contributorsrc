@@ -9,11 +9,20 @@
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "skipCi": true,
   "contributors": [
+      {
+      "login": "jslee314",
+      "name": "jslee314",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
+      "profile": "https://jade314.tistory.com/",
+      "contributions": [
+        "code"
+      ]
+    },
     {
-      "login": "ahnseongeun",
-      "name": "ahnseongeun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47744119?v=4",
-      "profile": "https://github.com/ahnseongeun",
+      "login": "foru120",
+      "name": "Yong Hyun Kil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13757733?v=4",
+      "profile": "https://github.com/foru120",
       "contributions": [
         "code"
       ]
@@ -35,12 +44,12 @@
       "contributions": [
         "code"
       ]
-    },
+    },    
     {
-      "login": "jslee314",
-      "name": "jslee314",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40026846?v=4",
-      "profile": "https://jade314.tistory.com/",
+      "login": "ahnseongeun",
+      "name": "ahnseongeun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47744119?v=4",
+      "profile": "https://github.com/ahnseongeun",
       "contributions": [
         "code"
       ]
