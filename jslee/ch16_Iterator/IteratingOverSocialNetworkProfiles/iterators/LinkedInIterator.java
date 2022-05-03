@@ -1,5 +1,6 @@
 package IteratingOverSocialNetworkProfiles.iterators;
 
+
 import IteratingOverSocialNetworkProfiles.profile.Profile;
 import IteratingOverSocialNetworkProfiles.social_networks.LinkedIn;
 

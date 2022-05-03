@@ -1,8 +1,6 @@
 package shape;
 
 
-import java.awt.*;
-
 public class Circle extends Shape {
     public int radius;
 

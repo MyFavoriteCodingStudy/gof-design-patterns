@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class HtmlButton implements Button {
+public class HtmlButton implements Button2 {
     JPanel panel = new JPanel();
     JFrame frame = new JFrame();
     JButton button;

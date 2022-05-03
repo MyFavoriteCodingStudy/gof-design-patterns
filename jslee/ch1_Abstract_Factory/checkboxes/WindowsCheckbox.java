@@ -1,11 +1,11 @@
-package abstract_factory.checkboxes;
+package checkboxes;
 
 /**
  * All products families have the same varieties (MacOS/Windows).
  *
  * This is another variant of a checkbox.
  */
-public class WindowsCheckbox implements abstract_factory.heckboxes.Checkbox {
+public class WindowsCheckbox implements Checkbox {
 
     @Override
     public void paint() {

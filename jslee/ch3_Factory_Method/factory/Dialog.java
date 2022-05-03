@@ -1,6 +1,6 @@
 package factory;
 
-import buttons.Button;
+import buttons.Button2;
 
 /**
  * Base factory class. Note that "factory" is merely a role for the class. It
@@ -12,7 +12,7 @@ public abstract class Dialog {
     public void renderWindow() {
         // ... other code ...
 
-        Button okButton = createButton();
+        Button2 okButton = createButton();
         okButton.render();
     }
 
@@ -20,5 +20,5 @@ public abstract class Dialog {
      * Subclasses will override this method in order to create specific button
      * objects.
      */
-    public abstract Button createButton();
+    public abstract Button2 createButton();
 }

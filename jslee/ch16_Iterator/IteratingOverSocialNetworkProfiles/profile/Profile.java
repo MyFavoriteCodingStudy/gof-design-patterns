@@ -1,5 +1,6 @@
 package IteratingOverSocialNetworkProfiles.profile;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,6 +10,7 @@ public class Profile {
     private String name;
     private String email;
     private Map<String, List<String>> contacts = new HashMap<>();
+
 
     public Profile(String email, String name, String... contacts) {
         this.email = email;

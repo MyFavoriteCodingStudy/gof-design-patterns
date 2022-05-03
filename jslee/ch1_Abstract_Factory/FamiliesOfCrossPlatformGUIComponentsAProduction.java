@@ -1,8 +1,6 @@
-package abstract_factory.app;
-
-import abstract_factory.factory.GUIFactory;
-import abstract_factory.factory.MacOSFactory;
-import abstract_factory.factory.WindowsFactory;
+import factory.GUIFactory;
+import factory.MacOSFactory;
+import factory.WindowsFactory;
 
 public class FamiliesOfCrossPlatformGUIComponentsAProduction {
     /**
@@ -10,8 +8,8 @@ public class FamiliesOfCrossPlatformGUIComponentsAProduction {
      * initialization stage), depending on the configuration or environment
      * variables.
      */
-    private static abstract_factory.app.Application configureApplication() {
-        abstract_factory.app.Application app;
+    private static Application configureApplication() {
+        Application app;
         GUIFactory factory;
         String osName = System.getProperty("os.name").toLowerCase();
         if (osName.contains("mac")) {

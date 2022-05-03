@@ -1,6 +1,6 @@
-package abstract_factory.buttons;
+package buttons;
 
-public class MacOSButton implements abstract_factory.buttons.Button {
+public class MacOSButton implements Button {
 
     @Override
     public void paint() {

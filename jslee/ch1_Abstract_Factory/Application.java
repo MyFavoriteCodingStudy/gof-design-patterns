@@ -1,6 +1,6 @@
-package  abstract_factory.app;
-
-import abstract_factory.buttons.Button;
+import buttons.Button;
+import checkboxes.Checkbox;
+import factory.GUIFactory;
 
 
 /**

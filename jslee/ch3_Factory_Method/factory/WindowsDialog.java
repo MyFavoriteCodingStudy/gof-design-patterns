@@ -1,8 +1,8 @@
 package factory;
 
 
-import buttons.Button;
-import buttons.WindowsButton;
+import buttons.Button2;
+import buttons.WindowsButton2;
 
 /**
  * Windows Dialog will produce Windows buttons.
@@ -10,7 +10,7 @@ import buttons.WindowsButton;
 public class WindowsDialog extends Dialog {
 
     @Override
-    public Button createButton() {
-        return new WindowsButton();
+    public Button2 createButton() {
+        return new WindowsButton2();
     }
 }

@@ -1,5 +1,6 @@
 package IteratingOverSocialNetworkProfiles.spammer;
 
+
 import IteratingOverSocialNetworkProfiles.profile.Profile;
 import IteratingOverSocialNetworkProfiles.social_networks.Facebook;
 import IteratingOverSocialNetworkProfiles.social_networks.LinkedIn;
@@ -24,6 +25,7 @@ public class Demo {
         String choice = scanner.nextLine();
 
         SocialNetwork network;
+
         if (choice.equals("2")) {
             network = new LinkedIn(createTestProfiles());
         }

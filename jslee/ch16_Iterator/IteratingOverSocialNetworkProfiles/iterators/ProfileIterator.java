@@ -1,5 +1,6 @@
 package IteratingOverSocialNetworkProfiles.iterators;
 
+
 import IteratingOverSocialNetworkProfiles.profile.Profile;
 
 public interface ProfileIterator {

@@ -7,32 +7,44 @@ import shape.Shape;
 import java.util.ArrayList;
 import java.util.List;
 
-//Prototype 패턴은 [Cloneable] 인터페이스와 함께 Java에서 즉시 사용할 수 있습니다.
-//모든 클래스는 이 인터페이스를 구현하여 복제할 수 있습니다.
-//java.lang.Object#clone() (클래스는 java.lang.Cloneable 인터페이스를 구현해야 함)
-//식별: 프로토타입은 복제 또는 복사 방법 등으로 쉽게 식별할 수 있습니다.
 public class PrototypeDemo {
+
     public static void main(String[] args) {
         List<Shape> shapes = new ArrayList<>();
-        List<Shape> shapesCopy = new ArrayList<>();
+        List<Shape> shapes2 = new ArrayList<>();
 
+        // 0 원
+        // 1 원-클론
+        // 2 네모
         Circle circle = new Circle();
         circle.x = 10;
         circle.y = 20;
         circle.radius = 15;
         circle.color = "red";
-        shapes.add(circle);
+
 
         Circle anotherCircle = (Circle) circle.clone();
-        shapes.add(anotherCircle);
 
         Rectangle rectangle = new Rectangle();
         rectangle.width = 10;
         rectangle.height = 20;
         rectangle.color = "blue";
-        shapes.add(rectangle);
 
-        cloneAndCompare(shapes, shapesCopy);
+
+
+//        shapes.add(circle);
+//        shapes.add(anotherCircle);
+//        shapes.add(rectangle);
+//
+        shapes.add(circle);
+//        shapes2.add(circle);
+
+//        shapes.add(circle);
+//        shapes2.add(rectangle);
+
+
+        cloneAndCompare(shapes, shapes2);
+
     }
 
     private static void cloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy) {

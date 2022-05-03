@@ -1,6 +1,6 @@
 package factory;
 
-import buttons.Button;
+import buttons.Button2;
 import buttons.HtmlButton;
 
 /**
@@ -9,7 +9,7 @@ import buttons.HtmlButton;
 public class HtmlDialog extends Dialog {
 
     @Override
-    public Button createButton() {
+    public Button2 createButton() {
         return new HtmlButton();
     }
 }

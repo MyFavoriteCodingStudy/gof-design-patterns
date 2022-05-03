@@ -1,8 +1,9 @@
-package abstract_factory.checkboxes;
+package factory;
 
-import abstract_factory.buttons.Button;
+import buttons.Button;
+import checkboxes.Checkbox;
 
 public interface GUIFactory {
     Button createButton();
-    abstract_factory.heckboxes.Checkbox createCheckbox();
+    Checkbox createCheckbox();
 }

@@ -1,4 +1,4 @@
-package abstract_factory.checkboxes;
+package checkboxes;
 
 public class MacOSCheckbox implements Checkbox {
 

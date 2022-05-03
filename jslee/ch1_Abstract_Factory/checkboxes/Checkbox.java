@@ -1,4 +1,4 @@
-package abstract_factory.heckboxes;
+package checkboxes;
 
 /**
  * Checkboxes is the second product family. It has the same variants as buttons.
