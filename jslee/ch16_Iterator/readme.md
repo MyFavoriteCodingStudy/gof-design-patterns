@@ -1,20 +1,14 @@
-Here are some examples from core Java libraries:
-All implementations of java.util.Iterator (also java.util.Scanner).
-All implementations of java.util.Enumeration
 
-# Structure
+# Iterator
 
 ## Intent
-
-Lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
-
 기본 표현(목록, 스택, 트리 등)을 노출하지 않고 컬렉션의 요소를 탐색할 수 있습니다.
+Lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
+컬렉션 구현 방법을 노출시키지 않으면서도 그 집합체 안에 들어있는 모든 항목에 접근할 방법을 제공하는 디자인 패턴내부구조를 노출하지 않고, 복잡 객체의 원소를 순차적으로 접근 가능하게 해주는 행위 패턴
 
 
 반복자 패턴은 컬렉션을 반복하는 표준 방법을 제공합니다.
-정렬된 개체 그룹을 보유하는 클래스 또는 구조체가 있고
-"for in" 루프를 사용하여 반복 가능하게 만들고 싶을 때
-반복자 패턴을 사용합니다.
+정렬된 개체 그룹을 보유하는 클래스 또는 구조체가 있고 "for in" 루프를 사용하여 반복 가능하게 만들고 싶을 때 반복자 패턴을 사용합니다.
 
 - All implementations of java.util.Iterator (also, java.util.Scanner)
 - All implementations of java.util.Enumeration
