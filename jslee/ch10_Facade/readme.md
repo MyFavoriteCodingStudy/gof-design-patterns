@@ -64,11 +64,27 @@ classDiagram
 • `javax.faces.context.ExternalContext` 는  ServletContext, HttpSession, HttpServletRequest, HttpServletResponse를 사용합니다. 
 
 
+
+
+## Releations with Other Patterns
+- Facade는 기존 개체에 대한 새 인터페이스를 정의하는 반면 `Adapter`는 기존 인터페이스를 사용 가능하게 만들려고 합니다. 또한 Adapter는 일반적으로 하나의 객체만 Wrapping 하는 반면 Facade는 개체의 전체 하위 시스템과 함께 작동합니다.
+- `Abstract Factory`는 클라이언트 코드에서 서브시스템 객체가 **생성되는 방식만 숨기고 싶을 때** Facade의 대안으로 사용할 수 있습니다.
+- `Flyweight`는 많은 작은 객체를 만드는 방법을 보여주는 반면 Facade는 전체 서브시스템을 나타내는 단일 객체를 만드는 방법을 보여 줍니다.
+- Facade와 `Mediator`는 비슷한 역할을 합니다. 밀접하게 연결된 많은 클래스 간의 협업을 구성하려고 합니다. Facade는 객체의 서브시스템에 대한 단순화된 인터페이스를 정의하지만 새로운 기능을 도입하지는 않습니다. 서브시스템 자체는 Facade를 인식하지 못합니다. 서브시스템 내의 개체는 직접 통신할 수 있습니다. Mediator는 시스템 구성 요소간의 통신을 중앙 집중화 합니다. 구성 요소는 Mediator 개체에 대해서만 알고 직접 통신하지 않습니다.
+- 대부분의 경우 단일 Facade 객체로 충분하기 때문에 Facade 클래스는 종종 `싱글톤`으로 변환될 수 있습니다.
+- Facade는 복잡한 엔티티를 버퍼링하고 자체적으로 초기화 한다는 점에서 `Proxy`와 유사합니다. Facade와 달리 Proxy는 서비스 객체와 동일한 인터페이스를 가지고 있어 상호 교환이 가능합니다.
+
+
+
+> 하위 시스템에 대한 인터페이스 제공 시 : 복잡한구조라 간단하게 제공하고싶으면 Facade, 다른 인터페이스끼리 자유롭게 호환될 수 있게 하고싶으면 Adapter
+
+
 ## Code example
 
-1) 복잡한 비디오 변환 라이브러리를 위한 간단한 인터페이스**
-   이 예에서 Facade는 복잡한 비디오 변환 프레임워크와의 통신을 단순화합니다.
-   Facade는 프레임워크의 올바른 클래스를 구성하고 올바른 형식으로 결과를 검색하는 모든 복잡성을 처리하는 단일 메서드로 단일 클래스를 제공합니다.
+**1) 복잡한 비디오 변환 라이브러리를 위한 간단한 인터페이스**  
+
+   이 예에서 Facade는 복잡한 비디오 변환 프레임워크와의 통신을 단순화합니다.  
+   Facade는 프레임워크의 클래스를 구성하고 결과를 검색하는 모든 복잡성을 처리하는 인터페이스를 제공합니다.
 ```mermaid
 classDiagram
     VideoConversionFacade <|-- Client
@@ -100,46 +116,10 @@ classDiagram
 ```
 
 
-2) 레트토핏
-```mermaid
-classDiagram
-    Facade <|-- Client
-    Additional_Facade <|-- Facade
-    Complex_Subsystem <|-- Additional_Facade
-    Complex_Subsystem <|-- Facade
-      
-      class Facade{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Additional_Facade{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Complex_Subsystem{
-          +bool is_wild
-          +run()
-      }
-      class Client{
-      }
-```
+
+**2) 형태 만드는 라이브러리를 위한 간단한 인터페이스 **  
+
+이 예에서 Facade는 복잡한 형태를 만드는 로직을 단순화합니다.  
+
+
 ![img.png](img.png)
-
-
-
-## Releations with Other Patterns
-- Facade는 기존 개체에 대한 새 인터페이스를 정의하는 반면 `Adapter`는 기존 인터페이스를 사용 가능하게 만들려고 합니다. 또한 Adapter는 일반적으로 하나의 객체만 Wrapping 하는 반면 Facade는 개체의 전체 하위 시스템과 함께 작동합니다.
-- `Abstract Factory`는 클라이언트 코드에서 서브시스템 객체가 **생성되는 방식만 숨기고 싶을 때** Facade의 대안으로 사용할 수 있습니다.
-- `Flyweight`는 많은 작은 객체를 만드는 방법을 보여주는 반면 Facade는 전체 서브시스템을 나타내는 단일 객체를 만드는 방법을 보여 줍니다.
-- Facade와 `Mediator`는 비슷한 역할을 합니다. 밀접하게 연결된 많은 클래스 간의 협업을 구성하려고 합니다. Facade는 객체의 서브시스템에 대한 단순화된 인터페이스를 정의하지만 새로운 기능을 도입하지는 않습니다. 서브시스템 자체는 Facade를 인식하지 못합니다. 서브시스템 내의 개체는 직접 통신할 수 있습니다. Mediator는 시스템 구성 요소간의 통신을 중앙 집중화 합니다. 구성 요소는 Mediator 개체에 대해서만 알고 직접 통신하지 않습니다.
-- 대부분의 경우 단일 Facade 객체로 충분하기 때문에 Facade 클래스는 종종 `싱글톤`으로 변환될 수 있습니다.
-- Facade는 복잡한 엔티티를 버퍼링하고 자체적으로 초기화 한다는 점에서 `Proxy`와 유사합니다. Facade와 달리 Proxy는 서비스 객체와 동일한 인터페이스를 가지고 있어 상호 교환이 가능합니다.
-
-
-
-하위 시스템에 대한 인터페이스 제공 시 : 복잡한구조라 간단하게 제공하고싶으면 Facade, 다른 인터페이스끼리 자유롭게 호환될 수 있게 하고싶으면 Adapter
-
-
-
-https://www.jetbrains.com/help/idea/markdown.html#preview
