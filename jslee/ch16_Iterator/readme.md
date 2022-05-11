@@ -1,7 +1,7 @@
 
 # Iterator
 
-## Intent
+## :bell: Intent
 기본 표현(목록, 스택, 트리 등)을 노출하지 않고 컬렉션의 요소를 탐색할 수 있습니다.
 Lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 `컬렉션 구현 방법`을 노출시키지 않으면서도 그 집합체 안에 들어있는 모든 항목에 접근할 방법을 제공하는 디자인 패턴내부구조를 노출하지 않고, 복잡 객체의 원소를 순차적으로 접근 가능하게 해주는 행위 패턴
@@ -11,8 +11,8 @@ Lets you traverse elements of a collection without exposing its underlying repre
 
 
 
-## Motivation
-발생 가능한 문제
+## :bell: Motivation
+:cold_sweat:발생 가능한 문제
 >컬렉션은 프로그래밍에서 가장 많이 사용되는 데이터 유형 중 하나입니다. 그럼에도 불구하고 컬렉션은 개체 그룹에 대한 컨테이너일 뿐입니다.
 대부분의 컬렉션은 요소를 간단한 `list`에 저장합니다. 그러나 그 중 일부는 `스택, 트리, 그래프` 및 기타 복잡한 데이터 구조를 기반으로 합니다.      
 > 그러나 `컬렉션이 어떻게 구성되어 있든` 다른 코드에서 이러한 요소를 사용할 수 있도록 컬렉션은 해당 요소에 액세스할 수 있는 방법을 제공해야 합니다. 
@@ -22,14 +22,14 @@ Lets you traverse elements of a collection without exposing its underlying repre
 컬렉션에 더 많은 순회 알고리즘을 추가하면 효율적인 데이터 저장이라는 기본 책임이 점차 흐려집니다. 또한 일부 알고리즘은 특정 응용 프로그램에 맞게 조정될 수 있으므로 일반 컬렉션 클래스에 포함하는 것이 이상할 수 있습니다.
 반면에 다양한 컬렉션과 함께 작동해야 하는 클라이언트 코드는 요소를 저장하는 방법에 신경조차 쓰지 않을 수 있습니다. 그러나 컬렉션은 모두 해당 요소에 액세스하는 다른 방법을 제공하므로 코드를 특정 컬렉션 클래스에 연결하는 것 외에는 다른 옵션이 없습니다.
 
-해결책
+:blush:해결책
 >Iterator 패턴의 주요 아이디어는 `컬렉션의 순회 동작을 iterator라는 별도의 객체로 추출`하는 것입니다.     
 > 알고리즘 자체를 구현하는 것 외에도 iterator 객체는 현재 위치 및 끝까지 남은 요소 수와 같은 모든 탐색 세부 정보를 캡슐화합니다. 이 때문에 여러 반복자가 서로 독립적으로 동시에 동일한 컬렉션을 통과할 수 있습니다.     
 > 일반적으로 반복자는 컬렉션의 요소를 가져오기 위한 하나의 기본 방법을 제공합니다. 클라이언트는 아무 것도 반환하지 않을 때까지 이 메서드를 계속 실행할 수 있습니다. 이는 반복자가 모든 요소를 순회했음을 의미합니다.     
 > 모든 반복자는 동일한 인터페이스를 구현해야 합니다. 이렇게 하면 적절한 반복자가 있는 한 클라이언트 코드가 모든 컬렉션 유형 또는 순회 알고리즘과 호환됩니다. 컬렉션을 순회하는 특별한 방법이 필요한 경우 컬렉션이나 클라이언트를 변경할 필요 없이 새 반복자 클래스를 만들기만 하면 됩니다.
 > 
 
-## Structure of classes
+## :balloon: Structure of classes
 ```mermaid
 classDiagram
       Iterator <|-- ConcreteIterators
@@ -73,7 +73,7 @@ Concrete Collection 은 클라이언트가 요청할 때마다 특정 구체 반
 `Client`
 일반적으로 client는 자체적으로 반복자를 생성하지 않고 대신 컬렉션에서 가져옵니다. 그러나 어떤 경우에는 클라이언트가 직접 만들 수 있습니다. 예를 들어 클라이언트가 자체 특수 반복기를 정의할 때.
 
-## Applicability
+## :balloon: Applicability
 (1) 컬렉션의 내부에 복잡한 데이터 구조가 있지만 그 `복잡성을 클라이언트로부터 숨기고 싶을 때` Iterator 패턴을 사용하십시오(`편의`나 `보안`상의 이유로).      
 반복자는 복잡한 데이터 구조 작업의 세부 사항을 캡슐화하여 클라이언트에 컬렉션 요소에 액세스하는 몇 가지 간단한 방법을 제공합니다. 이 접근 방식은 클라이언트에게 매우 편리하지만 컬렉션을 직접 사용하는 경우 클라이언트가 수행할 수 있는 부주의하거나 악의적인 작업으로부터 컬렉션을 보호합니다.
 
@@ -84,20 +84,20 @@ Concrete Collection 은 클라이언트가 요청할 때마다 특정 구체 반
 패턴은 컬렉션과 반복자 모두에 대한 몇 가지 일반 인터페이스를 제공합니다. 코드가 이제 이러한 인터페이스를 사용한다는 점을 감안할 때 이러한 인터페이스를 구현하는 다양한 종류의 컬렉션 및 반복자를 전달하면 여전히 작동합니다.
 
 
-## Releations with Other Patterns
+## :balloon: Releations with Other Patterns
 - Iterator를 사용하여 `Composite` 트리를 탐색할 수 있습니다.
 - Iterator와 함께 `Factory Method` 를 사용하여 컬렉션 하위 클래스가 컬렉션과 호환되는 다양한 유형의 반복자를 반환하도록 할 수 있습니다.
 - `Memento`를 Iterator와 함께 사용하여 현재 반복 상태를 캡처하고 필요한 경우 롤백할 수 있습니다.
 - `Visitor`는 Iterator와 함께 사용하여 복잡한 데이터 구조를 순회하고 해당 요소에 대해 일부 작업을 실행할 수 있습니다. 모두 다른 클래스가 있더라도 마찬가지입니다.
 
-## Java Library
+## :bulb: Java Library
 - `java.util.Iterator` (also, java.util.Scanner)의 모든 구현 클래스들
 - `java.util.Enumeration`의 모든 구현 클래스들
 
 
 
 
-## Example Code
+## :bulb: Example Code
 **1) 소셜 네트워크 프로필 반복**
 이 예에서 Iterator 패턴은 클라이언트 코드에 통신 세부 정보를 노출하지 않고   
 원격 소셜 네트워크 컬렉션의 소셜 프로필을 살펴보는 데 사용됩니다.
