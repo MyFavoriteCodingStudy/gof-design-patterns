@@ -2,8 +2,8 @@
 # Facade
 
 ## Intent
->Facade는 라이브러리, 프레임워크 또는 기타 복잡한 클래스 집합에 대한 단순화된 인터페이스를 제공하는 구조패턴입니다. 
->Provides a simplified interface to a library, a framework, or any other complex set of classes.
+> Facade는 라이브러리, 프레임워크 또는 기타 복잡한 클래스 집합에 대한 단순화된 인터페이스를 제공하는 구조패턴입니다.
+> Provides a simplified interface to a library, a framework, or any other complex set of classes.
 
 ## Motivation
 발생 가능한 문제
@@ -38,13 +38,12 @@ classDiagram
       class Client{
       }
 ```
-> Facade, AdditionalFacade, ComplexSubsystem, Client
 
- - `Facade`는 하위 시스템 기능의 특정 부분에 대한 편리한 액세스를 제공합니다. 클라이언트의 요청을 어디로 보내야 하는지, 움직이는 모든 부품을 어떻게 작동해야 하는지 알고 있습니다.
- - `Additional Facade` 클래스는 관련 없는 기능으로 단일 외관을 오염시켜 또 다른 복잡한 구조를 만들 수 있는 것을 방지하기 위해 생성할 수 있습니다. Additional Facade는 클라이언트와 다른 Facade 모두에서 사용할 수 있습니다. 
- - `Complex Subsystem`은 수십 개의 다양한 객체로 구성됩니다. 그들 모두가 의미 있는 일을 하도록 하려면 올바른 순서로 개체를 초기화하고 적절한 형식의 데이터를 제공하는 것과 같은 하위 시스템의 구현 세부 정보를 자세히 살펴봐야 합니다. 
- - `Subsystem` 클래스는 Facade의 존재를 인식하지 못합니다. 그들은 시스템 내에서 작동하고 서로 직접 작동합니다.
- - `Client`는 서브시스템 개체를 직접 호출하는 대신 Facade를 사용합니다.
+- `Facade`는 하위 시스템 기능의 특정 부분에 대한 편리한 액세스를 제공합니다. 클라이언트의 요청을 어디로 보내야 하는지, 움직이는 모든 부품을 어떻게 작동해야 하는지 알고 있습니다.
+- `Additional Facade` 클래스는 관련 없는 기능으로 단일 외관을 오염시켜 또 다른 복잡한 구조를 만들 수 있는 것을 방지하기 위해 생성할 수 있습니다. Additional Facade는 클라이언트와 다른 Facade 모두에서 사용할 수 있습니다.
+- `Complex Subsystem`은 수십 개의 다양한 객체로 구성됩니다. 그들 모두가 의미 있는 일을 하도록 하려면 올바른 순서로 개체를 초기화하고 적절한 형식의 데이터를 제공하는 것과 같은 하위 시스템의 구현 세부 정보를 자세히 살펴봐야 합니다.
+- `Subsystem` 클래스는 Facade의 존재를 인식하지 못합니다. 그들은 시스템 내에서 작동하고 서로 직접 작동합니다.
+- `Client`는 서브시스템 개체를 직접 호출하는 대신 Facade를 사용합니다.
 
 
 ## Applicability
@@ -61,16 +60,15 @@ classDiagram
 3. 패턴의 이점을 최대한 활용하려면 모든 클라이언트 코드가 파사드를 통해서만 하위 시스템과 통신하도록 합니다. 이제 클라이언트 코드는 하위 시스템 코드의 변경 사항으로부터 보호됩니다. 예를 들어, 서브시스템이 새 버전으로 업그레이드되면 파사드의 코드만 수정하면 됩니다.
 4. 파사드가 너무 커지면 동작의 일부를 새롭고 세련된 파사드 클래스로 추출하는 것을 고려하십시오.
 ## Java Library
-• `javax.faces.context.FacesContext` uses 'LifeCycle', ViewHandler,NavigationHandler classes under the hood, but most clients aren’t aware of that.
-• `javax.faces.context.ExternalContext` uses ServletContext, HttpSession, HttpServletRequest, HttpServletResponse
+• `javax.faces.context.FacesContext` 는 내부적으 'LifeCycle', ViewHandler,NavigationHandler 클래스를 사용하지만, 대부분 클라이언트는 이를 인식하지 못한다.
+• `javax.faces.context.ExternalContext` 는  ServletContext, HttpSession, HttpServletRequest, HttpServletResponse를 사용합니다. 
 
 
 ## Code example
->인기 있는 프로그래밍 언어 중 하나의 코드 예제를 사용하면 패턴 이면의 아이디어를 더 쉽게 파악할 수 있습니다.
 
 1) 복잡한 비디오 변환 라이브러리를 위한 간단한 인터페이스**
-이 예에서 Facade는 복잡한 비디오 변환 프레임워크와의 통신을 단순화합니다.
-Facade는 프레임워크의 올바른 클래스를 구성하고 올바른 형식으로 결과를 검색하는 모든 복잡성을 처리하는 단일 메서드로 단일 클래스를 제공합니다.
+   이 예에서 Facade는 복잡한 비디오 변환 프레임워크와의 통신을 단순화합니다.
+   Facade는 프레임워크의 올바른 클래스를 구성하고 올바른 형식으로 결과를 검색하는 모든 복잡성을 처리하는 단일 메서드로 단일 클래스를 제공합니다.
 ```mermaid
 classDiagram
     VideoConversionFacade <|-- Client
@@ -102,7 +100,7 @@ classDiagram
 ```
 
 
-2) 레트토핏 
+2) 레트토핏
 ```mermaid
 classDiagram
     Facade <|-- Client
